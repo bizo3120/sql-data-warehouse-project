@@ -16,10 +16,14 @@ WARNING:
 USE master;
 GO
 
--- Drop and recreate the 'DataWarehouse' database
+-- Check if the 'DataWarehouse' database already exists
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
+    -- Force all active connections and transactions to close immediately
+    -- This is required before dropping a database that is currently in use
     ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+    -- Permanently delete the existing database and all its data
     DROP DATABASE DataWarehouse;
 END;
 GO
