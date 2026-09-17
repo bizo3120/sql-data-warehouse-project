@@ -43,3 +43,4 @@ Everything is for Free!
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
 - **[Notion Project Steps]([[https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4](https://petal-fender-57f.notion.site/Data-Warehouse-Project-37cc0852dff180e8871ed0742ec7b835)](https://petal-fender-57f.notion.site/Data-Warehouse-Project-37cc0852dff180e8871ed0742ec7b835)](https://petal-fender-57f.notion.site/Data-Warehouse-Project-37cc0852dff180e8871ed0742ec7b835)):** Access to Project Phases and Tasks.
 
+[****](https://petal-fender-57f.notion.site/Data-Warehouse-Project-37cc0852dff180e8871ed0742ec7b835?source=copy_link)
